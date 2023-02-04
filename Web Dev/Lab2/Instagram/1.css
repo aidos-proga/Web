@@ -1,0 +1,176 @@
+body{
+    background-color:rgb(231, 227, 227);
+}
+
+#phone1 {
+    margin-top: -10px;
+    margin-left: 200px;
+    position: absolute;
+    height: 700px;
+}
+
+#phone2 {
+    margin-top: 20px;
+    margin-left: 320px;
+    position: absolute;
+    height: 700px;
+}
+
+#screen1 {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 275px;
+    height: 534px;
+    border-radius: 15px;
+}
+
+
+
+#screen2 {
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 395px;
+    height: 534px;
+    border-radius: 15px; 
+    animation-name: new_screen2;
+    animation-duration: 12s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+#screen02 {
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 395px;
+    height: 534px;
+    border-radius: 15px; 
+}
+
+            /* ANiMAtION */
+
+
+@keyframes new_screen2{
+    0% {opacity: 100%;}
+    50% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+            /* ######## */
+
+.in {
+    position: absolute;
+    margin-top: 94px;
+    margin-left: 750px;
+    width: 352px;
+    height: 400px;
+    background-color: white;
+    border: 0.2px solid gray;
+    align-items: center;
+}
+#insta_text{
+    margin-left: 78px;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#nick {
+    margin-left: 40px;
+    width: 260px;
+    height: 32px;
+    margin-bottom: 8px;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+    font-size: 13px;
+}
+#password {
+    margin-left: 40px;
+    width: 260px;
+    height: 32px;
+    border: 0.5px solid gray;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+#enter {
+    margin-left: 40px;
+    width: 265px;
+    height: 32px;
+    border: 0.5px solid;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    background-color: #0094f6d8;
+    color: white;
+    font-size: 14px;
+}
+#or {
+    margin-left: 40px;
+    width: 265px;
+    margin-bottom: 20px;
+}
+#facebook {
+    margin-top: -8px;
+    margin-left: 85px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: var(--font-family-system);
+    color: black;
+    text-decoration: none;
+}
+#link_face {
+    color: #385185;
+    text-decoration: none;
+}
+#forget{
+    margin-left: 124px;
+    font-size: 12px;
+}
+#link2 {
+    color: #00376B;
+    text-decoration: none;
+}
+
+.create {
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 750px;
+    width: 352px;
+    height: 55px;
+    background-color: white;
+    border: 0.2px solid gray;  
+    text-align: center;
+    font-weight: var(--font-weight-system-semibold);
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#link3 {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+
+
+/* #################################### */
+
+
+.APPS{
+    position: absolute;
+    margin-top: 574px;
+    margin-left: 750px;
+    width: 352px;
+    height: 64px;
+    text-align: center;
+}
+#apple{
+    height: 40px;
+}
+#google{
+    height: 40px;
+}
+
+/* ################################ */
+
+footer{
+    margin-left: 150px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    margin-top: 700px;
+}
